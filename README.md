@@ -12,6 +12,10 @@ A list of helpfull commands in nvim
 `:help file`
 * `nvim filename1 filename2` open files `filename1` and `filename2` with nvim
 
+### Normal Mode
+`:help normal`
+* `ESC` or `ctrl+[` return to normal mode
+
 ### Save File
 `:help save-file`
 `:help quit`
@@ -28,6 +32,9 @@ A list of helpfull commands in nvim
 `:help insert`
 * `i` enter insert mode
 
+## Replace mode
+`:help replace`
+* `r` enter replace mode
 
 ### Movement
 `:help movement`
