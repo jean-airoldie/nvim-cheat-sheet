@@ -152,6 +152,10 @@ any number, which represent the number of repetition we need.
 * `i` ignorecase for regex pattern
 * `I` dont ignorecase for regex pattern
 
+#### Folding
+`:help folding`
+* `za` while in a code block to toggle between collapsed / normal
+
 ### Visual Block mode
 `:help block`
 * `ctrl+v` enter visual block mode (I remapped to v cuz normal visual mode sucks) \
