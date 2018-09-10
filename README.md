@@ -88,3 +88,11 @@ Various helpfull nvim commands.
 * `ctrl+x + ctrl+k` words in dictionary
 * `ctrl+x + ctrl+t` words in thesaurus
 * `ctrl+x + ctrl+f` filenames
+
+## Visual Block mode
+`:help block`
+* `ctrl+v` enter visual block mode (I remapped to v cuz normal visual mode sucks)
+*while in visual block mode*
+* `I` enter block insert mode which will insert before the cursor for every line in block
+* `shift+$` select the whole block from left to right
+* `A` enter block append mode which will append after the cursor for every line in block
