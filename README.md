@@ -1,7 +1,10 @@
-# nvim-guide
-See my [nvim config here](https://github.com/jean-airoldie/dotfiles)
+# nvim-cheat-sheet
+A list of helpfull commands in nvim
 
-*Note that we always assume we are in normal mode unless explicitely specified*
+## Before reading
+* Always assume we are in normal mode unless explicitely specified
+* This guide uses the default commands (no remapping unless explicity specified)
+* For a config template: see my [nvim config here](https://github.com/jean-airoldie/dotfiles)
 
 ## The basics
 
