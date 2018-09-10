@@ -19,7 +19,7 @@ A list of helpfull commands in nvim
 ### Save File
 `:help save-file`
 `:help quit` \
-*Note that `!` can be appended to the following commandes to force it (i.e `:wq!`)*
+*Note that `!` can be appended to the following commands to force it (i.e `:wq!`)*
 * `:w` write to current file
 * `:q` quit file (must be saved before)
 * `:wq` or `:x` write & quit
