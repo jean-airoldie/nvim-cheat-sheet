@@ -2,12 +2,33 @@
 Various helpfull nvim commands.
 
 *Note that we assume we are in normal mode unless explicitely specified*
+
+## Open File
+`:help file`
+* `nvim filename1 filename2` open files `filename1` and `filename2` with nvim
+
+## Save File
+`:help save-file`
+`:help quit`
+*Note that `!` can be appended to the following commandes to force it (i.e `:wq!`)*
+* `:w` write to current file
+* `:q` quit file (must be saved before)
+* `:wq` or `:x` write & quit
+* `:saveas` save current file into another file
+*Here are a few equivalent shorthands*
+* `ZZ` is like `:x`
+* `ZQ` is like `:q!`
+
 ## Movement
 `:help movement`
 * `gg` go to first line of file
 * `G` go to last line of file
 * `5G` go to line 5
 * `%` go to next part of parenthesis, bracket etc.
+* `up` or `k` move up
+* `down` or `j` move down
+* `left` or `h` move left
+* `right` of `l` move right
 
 ## Formatting
 `:help formatting`
