@@ -18,12 +18,12 @@ A list of helpfull commands in nvim
 
 ### Save File
 `:help save-file`
-`:help quit`
+`:help quit` \
 *Note that `!` can be appended to the following commandes to force it (i.e `:wq!`)*
 * `:w` write to current file
 * `:q` quit file (must be saved before)
 * `:wq` or `:x` write & quit
-* `:saveas` save current file into another file
+* `:saveas` save current file into another file \
 *Here are a few equivalent shorthands*
 * `ZZ` is like `:x`
 * `ZQ` is like `:q!`
@@ -66,7 +66,7 @@ A list of helpfull commands in nvim
 * `y}` yank paragraph into unnnamed register
 
 ### Repetition
-* `.` will repeat the previous command if possible
+* `.` will repeat the previous command if possible \
 (Concept) Many commands can be executed multiple times by prepending them with
 any number, which represent the number of repetition we need.
 * `5i` will enter insert mode and insert 5 times the content written
@@ -95,7 +95,7 @@ any number, which represent the number of repetition we need.
 * `"/` the last used regex register
 
 ## Insert Completion
-`:help ins-completion`
+`:help ins-completion` \
 *while in insert mode*
 * `ctrl+n` any completion
 * `ctrl+x + ctrl+n` keyword in file
@@ -154,7 +154,7 @@ any number, which represent the number of repetition we need.
 
 ### Visual Block mode
 `:help block`
-* `ctrl+v` enter visual block mode (I remapped to v cuz normal visual mode sucks)
+* `ctrl+v` enter visual block mode (I remapped to v cuz normal visual mode sucks) \
 *while in visual block mode*
 * `I` enter block insert mode which will insert before the cursor for every line in block
 * `shift+$` select the whole block from left to right
