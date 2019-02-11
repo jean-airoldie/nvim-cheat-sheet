@@ -131,7 +131,7 @@ any number, which represent the number of repetition we need.
 
 ### Substitute (search and replace)
 `:help substitute`
-* `:range/regex_expr/replacement/flag`
+* `:<range>s/<regex_expr>/<replacement>/<flag>`
 
 #### Range
 `:help range`
